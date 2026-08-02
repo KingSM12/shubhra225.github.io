@@ -283,3 +283,20 @@ behavior:"smooth"
 console.log("%cWelcome Recruiter 👋","font-size:24px;color:#00D4FF;font-weight:bold");
 
 console.log("%cDesigned & Developed by Shubhradip Mazumder","font-size:18px;color:white;");
+const theme=document.getElementById("themeToggle");
+
+theme.onclick=()=>{
+
+document.body.classList.toggle("light");
+
+if(document.body.classList.contains("light")){
+
+theme.innerHTML='<i class="fas fa-sun"></i>';
+
+}else{
+
+theme.innerHTML='<i class="fas fa-moon"></i>';
+
+}
+
+}
