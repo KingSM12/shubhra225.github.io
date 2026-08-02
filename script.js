@@ -300,3 +300,12 @@ theme.innerHTML='<i class="fas fa-moon"></i>';
 }
 
 }
+const menu=document.getElementById("menu");
+
+const nav=document.getElementById("navbar");
+
+menu.onclick=()=>{
+
+nav.classList.toggle("active");
+
+}
